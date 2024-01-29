@@ -1,8 +1,8 @@
 package utils;
 
-import com.automate.constants.FrameworkConstants;
-import com.automate.enums.ConfigProperties;
-import com.automate.utils.configloader.PropertyUtils;
+import constants.FrameworkConstants;
+import enums.ConfigProperties;
+import utils.configloader.PropertyUtils;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;

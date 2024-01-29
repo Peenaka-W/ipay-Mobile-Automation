@@ -3,6 +3,8 @@
 	<parameter name="os" value="${os}" />
 	<listeners>
 	<listener class-name="UITestFramework.retryLogic.TestListener"/>
+		<listener class-name="UITestFramework.retryLogic.RetryListener"></listener>
+		<listener class-name="UITestFramework.retryLogic.TestListener"></listener>
 	<!-- uncomment RetryListener to enable retries. update the maxRetryCount value in the Retry class-->
 	<!--<listener class-name="UITestFramework.retryLogic.RetryListener"/>-->
 	</listeners>

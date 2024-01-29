@@ -1,10 +1,11 @@
 package utils.screenrecording;
 
-import com.automate.constants.FrameworkConstants;
-import com.automate.driver.manager.DriverManager;
+import constants.FrameworkConstants;
+import driver.manager.DriverManager;
 import io.appium.java_client.screenrecording.CanRecordScreen;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import lombok.var;
 import org.apache.commons.codec.binary.Base64;
 
 import java.io.File;

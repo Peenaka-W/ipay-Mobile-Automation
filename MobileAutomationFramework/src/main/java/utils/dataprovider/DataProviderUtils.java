@@ -1,9 +1,9 @@
 package utils.dataprovider;
 
-import com.automate.constants.FrameworkConstants;
-import com.automate.entity.LoginData;
-import com.automate.entity.SearchData;
-import com.automate.entity.TestData;
+import constants.FrameworkConstants;
+import entity.LoginData;
+import entity.SearchData;
+import entity.TestData;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.testng.annotations.DataProvider;
