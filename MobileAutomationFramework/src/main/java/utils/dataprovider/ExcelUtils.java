@@ -1,8 +1,8 @@
 package utils.dataprovider;
 
-import com.automate.constants.FrameworkConstants;
-import com.automate.customexceptions.FrameworkException;
-import com.automate.customexceptions.InvalidPathException;
+import constants.FrameworkConstants;
+import customexceptions.FrameworkException;
+import customexceptions.InvalidPathException;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
